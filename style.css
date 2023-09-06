@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background: linear-gradient(225deg, rgba(233,201,235,1) 29%, rgba(93,228,255,1) 100%);
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    margin: 100px auto;
+}
+
+.container h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 34px;
+}
+.bottom {
+    width: 70px;
+    height: 5px;
+    background-color: #037dc0;
+    text-align: center;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+.parent {
+    margin-top: 40px;
+    margin-left: calc((100% - 850px) / 2);
+}
+.parent .plan {
+    float: left;
+    border: 2px solid #f1f5f4;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+    margin-bottom: 50px;
+}
+.parent .plan > h3 {
+    color: white;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    padding: 10px 8px;
+    border-radius: 8px;
+}
+.parent .plan.basic > h3{
+    background-color: #c9257c;
+}
+.parent .plan.medium > h3{
+    background-color: #0f4978;
+}
+.parent .plan.premium > h3{
+    background-color: #f9a523;
+}
+.parent .plan.medium {
+    margin: 0 50px;
+}
+.parent .plan p {
+    border-top: 2px solid #f1f5f4;
+    padding: 15px;
+}
+.parent .price {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid #f1f5f4;
+    padding: 23px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parent .price h1 {
+    margin-bottom: 5px;
+} 
+button {
+    margin: 20px auto;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: fit-content;
+    padding: 8px 20px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.parent .plan.basic button {
+    background-color: #c9257c;
+}
+.parent .plan.plan.medium button {
+    background-color: #0f4978;
+}
+.parent .plan.premium button {
+    background-color: #f9a523;
+}
+.last {
+    border-bottom: 2px solid #f1f5f4;
+
+}
+.clear {
+    clear: both;
+}
